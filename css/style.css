@@ -1,0 +1,126 @@
+@charset "utf-8"
+
+html {height: 100%}
+
+body{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(217, 217, 217, 1);
+  font-family: "Times New Roman", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 135%;
+  float: left;
+
+}
+
+a {
+  color: #292e28;
+}
+
+a, a:hover{
+  -webkit-transition: all.0,6s ease;
+  -moz-transition: all.0,6s ease;
+  -o-transition: all.0,6s ease;
+  -ms-transition: all.0,6s ease;
+  transition: all.0,6s ease;
+}
+
+a.regAuth{
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover.regAuth{
+  color: #7CB543;
+}
+
+.clear{
+  clear: both;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+/*Стили для шапки*/
+
+header {
+  display: flex;
+  height: 50px;
+  font-family: "Irish Grover", sans-serif;
+}
+
+header>div{
+  width: 100%;
+  margin: 0;
+  color: #fff;
+  background-color: #393636;
+  text-align: center;
+}
+
+header>a{
+  color: #fff;
+}
+
+.header-left, .header-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  letter-spacing: 10%;
+}
+
+.header-left {
+  width: 80%;
+  background-color: #393636;
+}
+
+.header-right {
+  width: 20%;
+  background-color: #404040;
+}
+
+#regAuth{
+  text-align: center;
+  margin: 3%;
+}
+
+body>div {
+  font-size: 14px;
+  text-align: left;
+  margin: 20px;
+  padding: 20px;
+  background-color: lightgray;
+  border-radius: 10px;
+}
+
+p.Main{
+  font-size: 22px;
+  margin: 20px;
+  padding: 20px;
+  background-color: lightgray;
+  border-radius: 10px;
+  font-family: "Irish Grover", sans-serif;
+}
+
+div.enjoy{
+  font-size: 24px;
+  font-family: "Irish Grover", sans-serif;
+  line-height: 125%;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #333;
+  color: #fff;
+  text-align: right;
+}
+
+p.footer{
+  margin-right: 1%;
+}
